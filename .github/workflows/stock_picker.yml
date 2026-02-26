@@ -1,4 +1,4 @@
-name: Stock Picker Daily
+name: Stock Picker Daily1
 
 on:
   # 定时触发（cron使用UTC时间）
@@ -47,5 +47,6 @@ jobs:
           WECOM_KEY: ${{ secrets.WECOM_KEY }}
         run: |
           python stock_picker.py
+
 
 
